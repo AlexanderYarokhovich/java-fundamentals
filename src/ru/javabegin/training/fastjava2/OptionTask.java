@@ -86,6 +86,7 @@ public class OptionTask {
         Scanner in = new Scanner(System.in);
         int size = in.nextInt();
         int chessBoard[][] = new int[size][size];
+        System.out.println("Введите приделы матрицы");
         int size2 = in.nextInt();
         int maxsize = Math.max(size2, size2 * (-1));
         for (int i = 0; i < size; i++) {
