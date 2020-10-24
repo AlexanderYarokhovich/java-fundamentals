@@ -2,6 +2,7 @@ package ru.javabegin.training.fastjava2.linear;
 
 import java.util.Scanner;
 import java.time.*;
+
 import static java.lang.StrictMath.*;
 
 
@@ -12,7 +13,7 @@ public class Liner {
         task3();
         task4();
         task5();
-//        task6();
+        task6();
     }
 
     public static void task1() {
@@ -74,12 +75,31 @@ public class Liner {
         Scanner vvod = new Scanner(System.in);
         long secs = vvod.nextLong();
         long hour = secs / 3600;
-              long min = secs / 60 % 60;
-               long sec = secs % 60;
+        long min = secs / 60 % 60;
+        long sec = secs % 60;
         System.out.println(String.format("%02d:%02d:%02d", hour, min, sec));
 
     }
 
+    private static void task6() {
+        System.out.println("Введите каординату х");
+        Scanner vvod = new Scanner(System.in);
+        int x = vvod.nextInt();
+        System.out.println("Введите каординату у");
+        int y = vvod.nextInt();
+        if (-3 < x & x < 3 & 0 <= y & y < 5) {
+            boolean xy = true;
+            System.out.println("xy = " + xy );
+        } else if (-5 < x & x < 5 & 0 >= y & y > -5) {
+            boolean xy = true;
+            System.out.println("xy = " + xy );
+        }
+        else {
+            boolean xy= false;
+            System.out.println("xy = " + xy );
+        }
+
+    }
 }
 
 
