@@ -1,6 +1,9 @@
 package ru.javabegin.training.fastjava2.decompositionUsingMethods;
+
+import ru.javabegin.training.fastjava2.decompositionUsingMethods.utils.ArrUtils;
+
 /*1. Написать метод(методы) для нахождения наибольшего общего делителя и наименьшего общего кратного двух натуральных чисел:*/
-public class  Task1 extends AbstractTask {
+public class  Task1 extends ArrUtils {
         public static int gcd(int a,int b) {
             while (b !=0) {
                 int tmp = a%b;
