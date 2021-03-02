@@ -27,9 +27,6 @@ public class TaskClass {
         students[6] = student7;
         students[7] = student8;
         students[8] = student9;
-//        System.out.println(students);
-//        for (int i = 0; i < students.length; i++){
-//    }
         System.out.println("Vvedite fak");
         Scanner vvod = new Scanner(System.in);
         String faculty = vvod.nextLine();
@@ -40,6 +37,5 @@ public class TaskClass {
                 System.out.println(stud);
             }
         }
-//            if (student3.getMyBirthday().isBefore(ChronoLocalDate.from(LocalDate.from()));
     }
 }
