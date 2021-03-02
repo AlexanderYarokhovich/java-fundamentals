@@ -14,7 +14,7 @@ public class Branching {
         TochkiNaPriamou.tochki();
     }
 }
-
+//1. Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник, и если да, то будет ли он прямоугольным.
 class Triangle {
     public static void structuraTreangles() {
         System.out.println("Введите градусы угла x");
@@ -31,9 +31,9 @@ class Triangle {
         }
     }
 }
-
+//Найти max{min(a, b), min(c, d)}.
 class MaxMin {
-    public static void bolshiyizmenshih() {
+    public static void maxMin() {
         System.out.println("Введите число а");
         Scanner vvod = new Scanner(System.in);
         double a = vvod.nextInt();
@@ -46,7 +46,7 @@ class MaxMin {
         System.out.println("Большее число из 2 чисел: " + max(min(a, b), min(c, d)));
     }
 }
-
+//Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. Определить, пройдет ли кирпич через отверстие.
 class Stroyka {
     public static void kirpich() {
         System.out.println("Введите число A");
@@ -69,26 +69,24 @@ class Stroyka {
 
     }
 }
-
+// Вычислить значение функции:
 class Function {
     public static void raschet() {
         System.out.println("Введите число x");
         Scanner vvod = new Scanner(System.in);
-        double x = vvod.nextDouble();
-        if (x <= 3) {
-            double F;
-            F = pow(x, 2) - 3 * x + 9;
+            double x = vvod.nextDouble();
+            if (x <= 3) {
+                double F = pow(x, 2) - 3 * x + 9;
             System.out.println("F= " + F);
         } else {
-            double F;
-            F = 1 / (pow(x, 3) + 6);
+            double F = 1 / (pow(x, 3) + 6);
             System.out.println("F= " + F);
         }
 
 
     }
 }
-
+//Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). Определить, будут ли они расположены на одной прямой.
 class TochkiNaPriamou {
     public static void tochki() {
         System.out.println("Введите координату х1 для A");

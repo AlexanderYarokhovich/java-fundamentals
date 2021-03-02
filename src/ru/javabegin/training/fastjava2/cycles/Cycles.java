@@ -48,19 +48,15 @@ class ProizvedenieKvadratov {
     public static void summa() {
         System.out.println("До какого числа суммировать квадраты?");
         Scanner vvod = new Scanner(System.in);
-
         int n = vvod.nextInt();
-
-        BigInteger result = new BigInteger(String.valueOf(1));
-
+        BigInteger result = BigInteger.ZERO;
         for (int i = 1; i <= n; i++) {
-            BigInteger val = new BigInteger(String.valueOf(i));
+            BigInteger val = BigInteger.valueOf(i);
             val = val.pow(2);
             result = result.multiply(val);
         }
         System.out.println(result);// В результате вконце почемуто много нулей если выбрать 200
     }                              // может где-то накосячил?
-
 }
 
 class Sootvetstvya {
@@ -88,7 +84,6 @@ class Delitel {
                 if (resultDeleniy == 0) {
                     System.out.print(delitel + " ");
                 }
-
             }
             System.out.println();
         }
@@ -97,7 +92,7 @@ class Delitel {
     private static int proverka(Scanner vvod) {
         int a = 0;
         if (vvod.hasNextInt()) {
-            a = vvod.nextInt(); //Если проверка пройдена, перемменой а присваивается значение введенного числа
+            a = vvod.nextInt();
             return a;
         }
         throw new RuntimeException("не верное число");
@@ -116,7 +111,6 @@ class Dlinna {
     }
 
     public static int[] numberEnter(int a) {
-
         String valString = String.valueOf(a);
         int chislo = valString.length();
         int[] arr = new int[chislo];
@@ -131,7 +125,6 @@ class Dlinna {
         }
         return arr;
     }
-
 }
 
 class Function {
@@ -155,7 +148,5 @@ class Function {
                 System.out.print(" " + chislo1 + " ");
             }
         }
-
-
     }
 }
