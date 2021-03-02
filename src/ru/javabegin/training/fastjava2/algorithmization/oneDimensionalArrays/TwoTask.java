@@ -1,9 +1,9 @@
 package ru.javabegin.training.fastjava2.algorithmization.oneDimensionalArrays;
 
 import java.util.Scanner;
-
+//Дана последовательность действительных чисел а1 ,а2 ,..., ап. Заменить все ее члены, большие данного Z, этим числом. Подсчи­тать количество замен.
 public class TwoTask {
-    public void mainMethod() {
+    public void credited() {
         System.out.println("Введите число Z");
         Scanner in = new Scanner(System.in);
         int Z = in.nextInt();

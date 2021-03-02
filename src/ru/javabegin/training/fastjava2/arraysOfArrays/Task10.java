@@ -8,7 +8,7 @@ public class Task10 {
         Scanner in = new Scanner(System.in);
         int size = in.nextInt();
         int multiArr[][] = new int[size][size];
-        System.out.println("Введите приделы матрицы");
+        System.out.println("Введите пределы матрицы");
         int size2 = in.nextInt();
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {

@@ -1,9 +1,9 @@
 package ru.javabegin.training.fastjava2.algorithmization.oneDimensionalArrays;
 
 import java.util.Scanner;
-
+//Дан массив действительных чисел, размерность которого N. Подсчитать, сколько в нем отрицательных, положительных и нулевых элементов.
 public class ThreeTask {
-    public void mainMethod() {
+    public void countNumbers() {
         System.out.println("Введите число размер массива");
         Scanner in = new Scanner(System.in);
         int size = in.nextInt();

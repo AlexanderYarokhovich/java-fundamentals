@@ -11,7 +11,6 @@ public class Task1 {
         int multiArr[][] = new int[size][size];
         System.out.println("Введите приделы матрицы");
         int size2 = in.nextInt();
-// int maxsize = Math.max(size2, size2 * (-1));
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 multiArr[i][j] = (int) (Math.random() * ((size2 + size2) - size2));
@@ -34,8 +33,6 @@ public class Task1 {
                 }
 
             }
-
-
             System.out.println();
         }
     }

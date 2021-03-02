@@ -1,9 +1,9 @@
 package ru.javabegin.training.fastjava2.algorithmization.oneDimensionalArrays;
 
 import java.util.Scanner;
-
+// В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
 public class FirstTask {
-    public void mainMethod() {
+    public void sumK() {
         System.out.println("Введите число К");
         Scanner in = new Scanner(System.in);
         int K = in.nextInt();
@@ -13,7 +13,6 @@ public class FirstTask {
             System.out.print(element + " ");
         }
         System.out.println("Кратный числу К будет: ");
-
         for (int j = 0; j < array.length; j++) {
             int result = array[j] % K;
             if (result == 0) {
