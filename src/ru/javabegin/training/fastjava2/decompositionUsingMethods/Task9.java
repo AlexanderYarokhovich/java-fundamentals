@@ -11,23 +11,23 @@ public class Task9 {
 
     public void calc() {
         FourCorner[] arr = {kvadrat, trap, prm};
-        int result = plochKvadrat(arr[0]);
+        int result = squareArea(arr[0]);
         System.out.println(result);
-        result = plochTrap(arr[1]);
+        result = areaOfTheTrapezium(arr[1]);
         System.out.println(result);
-        result = plochPrm(arr[2]);
+        result = areaOfaRectangle(arr[2]);
         System.out.println(result);
     }
 
-    private int plochKvadrat(final FourCorner figure) {
+    private int squareArea(final FourCorner figure) {
         return (int) Math.pow(figure.getX(), 2);
     }
 
-    private int plochTrap(final FourCorner figure) {
+    private int areaOfTheTrapezium(final FourCorner figure) {
         return (figure.getT() + figure.getX()) / 2 * figure.getY();
     }
 
-    private int plochPrm(final FourCorner figure) {
+    private int areaOfaRectangle(final FourCorner figure) {
         return figure.getX() * figure.getY();
     }
 

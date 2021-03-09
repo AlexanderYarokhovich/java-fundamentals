@@ -25,31 +25,6 @@ public class Task12 {
         for (int i : arr) {
             System.out.print(i + " ");
         }
- /*       for (int i = 0; sum <= k; i++) {
-            n = ArrUtils.generateInt(20);
-            arr[i] = n;
-            sum += n;
-
-            if (sum == k) {
-                for (int j : arr) {
-                    if(j>0) {
-                        System.out.print(j + " ");
-                    }
-                }
-//12 0 5 10 7 0 6
-            }
-            if (sum > k) {
-                difference = sum - k;
-                n = n - difference;
-                arr[i] = n;
-                for (int w : arr) {
-                    if (w > 0) {
-                        System.out.print(w + " ");
-                    }
-                }
-
-            }
-        }*/
     }
 
     private int getNumberWithConditions(final int k, final int n) {
@@ -69,7 +44,6 @@ public class Task12 {
     public int getSum(final int gen) {
         int sum = 0;
         char[] chars = String.valueOf(gen).toCharArray();
-        //System.out.println("chars " + chars);
         for (int i = 0; i < chars.length; i++) {
             System.out.println("chars[i]" + chars[i]);
             sum += Integer.parseInt(String.valueOf(chars[i]));
