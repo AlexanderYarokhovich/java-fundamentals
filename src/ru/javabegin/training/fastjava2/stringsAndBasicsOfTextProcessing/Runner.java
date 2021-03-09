@@ -11,6 +11,6 @@ public class Runner {
         Task4 d = new Task4();
 //        d.countNums();
         Task5 e = new Task5();
-        e.removeSpace();
+//        e.removeSpace();
     }
 }

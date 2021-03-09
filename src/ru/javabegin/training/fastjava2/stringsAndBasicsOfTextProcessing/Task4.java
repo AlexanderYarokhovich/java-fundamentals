@@ -9,14 +9,10 @@ public class Task4 {
         Pattern p = Pattern.compile("(\\d+)");
         Matcher m = p.matcher(my_string);
         int count = 0;
-
         while (m.find()) {
             count++;
         }
-
         System.out.println("Количество чисел: " + count);
-
-
     }
 }
 
