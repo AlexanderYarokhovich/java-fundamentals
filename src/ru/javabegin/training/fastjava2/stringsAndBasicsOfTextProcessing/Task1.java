@@ -6,8 +6,6 @@ public class Task1 {
     private String[] newArrayName = new String[arrayName.length];
 
     public void stringBuild() {
-
-
         for (int i = 0; i < arrayName.length; i++) {
             newArrayName[i] = oneName(arrayName[i]);
             System.out.println(newArrayName[i]);
