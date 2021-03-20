@@ -19,8 +19,8 @@ public class Runner {
         Task8 h = new Task8();
 //        h.longWord();
         Task9 i = new Task9();
-        i.searchForLetters();
+//        i.searchForLetters();
         Task10 j = new Task10();
-//        j.numberOffers();
+        j.numberOffers();
     }
 }

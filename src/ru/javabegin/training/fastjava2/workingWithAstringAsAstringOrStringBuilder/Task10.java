@@ -6,16 +6,13 @@ public class Task10 {
 
     public void numberOffers() {
         for (int i = 0; i < X.length(); i++) {
-            if (".".equals(String.valueOf(X.charAt(i)))) {
-                counter++;
-            }
-            if ("!".equals(String.valueOf(X.charAt(i)))) {
-                counter++;
-            }
-            if ("?".equals(String.valueOf(X.charAt(i)))) {
+            if (isCentenceAdd(X.charAt(i))) {
                 counter++;
             }
         }
         System.out.println("Предложений в строке: " + counter);
+    }
+    private boolean isCentenceAdd(final char c){
+        return ".".equals(String.valueOf(c))||"!".equals(String.valueOf(c))||"?".equals(String.valueOf(c));
     }
 }
