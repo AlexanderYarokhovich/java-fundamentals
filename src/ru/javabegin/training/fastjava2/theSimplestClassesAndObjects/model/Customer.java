@@ -1,4 +1,4 @@
-package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects;
+package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.model;
 
 public class Customer implements Comparable<Customer> {
     private int id;

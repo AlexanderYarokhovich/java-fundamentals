@@ -1,4 +1,6 @@
-package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects;
+package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.runner;
+
+import ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.model.Triangle;
 
 import java.util.ArrayList;
 import java.util.List;

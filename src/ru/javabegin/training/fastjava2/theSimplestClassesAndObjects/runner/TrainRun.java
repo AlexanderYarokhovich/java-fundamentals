@@ -1,11 +1,9 @@
-package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects;
+package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.runner;
+
+import ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.model.Train;
 
 import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Month;
 import java.util.*;
-
-import static java.util.Arrays.asList;
 
 public class TrainRun {
     public static void main(String[] args) {

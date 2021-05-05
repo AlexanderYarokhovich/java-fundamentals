@@ -1,6 +1,7 @@
-package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects;
+package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.runner;
 
-import ru.javabegin.training.fastjava2.sorting.Task1;
+import ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.model.Test1;
+import ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.model.Test2;
 
 public class Runner {
     public static void main(String[] args) {

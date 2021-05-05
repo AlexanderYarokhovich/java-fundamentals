@@ -1,4 +1,4 @@
-package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects;
+package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.model;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -8,9 +8,9 @@ public class Airline {
     private int flightNumber;
     private String aircraftType;
     private LocalTime departureTime;
-    private enum daysOfTheWeek;
+    private DayOfWeek daysOfTheWeek;
 
-    public Airline(String destination, int flightNumber, String aircraftType, LocalTime departureTime, enum daysOfTheWeek) {
+    public Airline(String destination, int flightNumber, String aircraftType, LocalTime departureTime, DayOfWeek daysOfTheWeek) {
         this.destination = destination;
         this.flightNumber = flightNumber;
         this.aircraftType = aircraftType;
@@ -50,11 +50,11 @@ public class Airline {
         this.departureTime = departureTime;
     }
 
-    public LocalDate getDaysOfTheWeek() {
+    public DayOfWeek getDaysOfTheWeek() {
         return daysOfTheWeek;
     }
 
-    public void setDaysOfTheWeek(LocalDate daysOfTheWeek) {
+    public void setDaysOfTheWeek(DayOfWeek daysOfTheWeek) {
         this.daysOfTheWeek = daysOfTheWeek;
     }
 

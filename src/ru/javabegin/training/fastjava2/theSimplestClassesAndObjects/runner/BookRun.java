@@ -1,8 +1,9 @@
-package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects;
+package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.runner;
+
+import ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.model.Book;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.*;
 
 public class BookRun {
     public static void main(String[] args) {

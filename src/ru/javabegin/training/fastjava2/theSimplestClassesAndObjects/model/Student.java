@@ -1,4 +1,4 @@
-package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects;
+package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.model;
 
 import java.util.ArrayList;
 import java.util.List;

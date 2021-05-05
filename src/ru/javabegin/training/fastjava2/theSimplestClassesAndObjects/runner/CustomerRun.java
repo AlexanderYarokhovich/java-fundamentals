@@ -1,7 +1,8 @@
-package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects;
+package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.runner;
+
+import ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.model.Customer;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class CustomerRun {
     public static void main(String[] args) {

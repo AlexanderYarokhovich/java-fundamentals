@@ -1,4 +1,4 @@
-package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects;
+package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.model;
 //Создйте класс Test2 c двумя переменными. Добавьте конструктор с входными параметрами. Добавьте конструктор,
 // инициализирующий члены класса по умолчанию. Добавьте set- и get- методы для полей экземпляра класса.
 public class Test2 {

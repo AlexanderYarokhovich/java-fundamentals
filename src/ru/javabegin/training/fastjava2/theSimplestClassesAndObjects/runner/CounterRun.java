@@ -1,6 +1,6 @@
-package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects;
+package ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.runner;
 
-import java.util.List;
+import ru.javabegin.training.fastjava2.theSimplestClassesAndObjects.model.Counter;
 
 public class CounterRun {
     public static void main(String[] args) {
