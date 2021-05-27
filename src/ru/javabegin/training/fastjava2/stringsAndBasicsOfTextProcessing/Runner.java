@@ -5,12 +5,12 @@ public class Runner {
         Task1 a = new Task1();
 //        a.stringBuild();
         Task2 b = new Task2();
-//        b.replase();
+//        b.replace();
         Task3 c = new Task3();
 //        c.getNumberOfDigits();
         Task4 d = new Task4();
 //        d.countNums();
         Task5 e = new Task5();
-        e.removeSpace();
+//        e.removeSpace();
     }
 }
